@@ -1,9 +1,10 @@
 nav {
     display: flex;
     align-items: center;
-    font-size: clamp(16px, 4vw, 32px);
+    font-size: clamp(32px, 4vw, 32px);
     gap: 1rem;
-    padding: 2rem;
+    height: 100px;
+    padding-left: 10px;
     border-bottom: 1px solid var(--platinum);
 }
 
