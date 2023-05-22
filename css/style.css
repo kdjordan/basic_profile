@@ -1,0 +1,25 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 100px;
+    filter: grayscale(50%) contrast(100%);
+}
+
+a {
+    padding: .2rem .3rem;
+    background-color: var(--platinum);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

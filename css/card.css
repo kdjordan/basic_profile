@@ -1,0 +1,15 @@
+.card {
+    max-width: 350px;
+    border: 1px solid var(--green);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+}
+
+.card-title {
+    font-size: clamp(24px, 7vw, 32px);
+    text-transform: uppercase;
+}
+
+.card-desc {
+    font-size: clamp(13px, 1vw, 16px);
+}

@@ -1,0 +1,37 @@
+nav {
+    display: flex;
+    align-items: center;
+    font-size: clamp(16px, 4vw, 32px);
+    gap: 1rem;
+    padding: 2rem;
+    border-bottom: 1px solid var(--platinum);
+}
+
+.nav-logo {
+    width: 5rem;
+    height: 5rem;
+}
+
+.nav-font {
+    display: flex;
+    align-items: center;
+}
+
+.cls-1 {
+    fill:none;
+    stroke:var(--green);
+    stroke-miterlimit:10;
+    stroke-width: 7px;    
+}
+
+.cls-1 .before,
+.cls-1 .after {
+    position: absolute;
+    border: 1px solid #58ea00;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    backface-visibility: hidden;
+}
